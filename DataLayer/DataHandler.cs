@@ -214,13 +214,13 @@ namespace GuaranteedRateConsoleApp.DataLayer
         /// <summary>
         /// Gets a Sorted CollectionItem List
         /// </summary>
-        /// <param name="outputItem">Either 1, 2 or 3</param>
+        /// <param name="outputItem">Either 1, 2, 3, 4 or 5</param>
         /// <returns></returns>
         public List<CollectionItem> GetSortedList(int outputItem)
         {
-            if (outputItem > 3)
+            if (outputItem > 5)
             {
-                throw new ArgumentException("outputItem must be a number less than 3", nameof(outputItem));
+                throw new ArgumentException("outputItem must be a number less than 6", nameof(outputItem));
             }
             List<CollectionItem> collectionItems = GetAllCollectionItems();
 
@@ -239,6 +239,14 @@ namespace GuaranteedRateConsoleApp.DataLayer
                 case 3:
                     return collectionItems
                         .OrderByDescending(o => o.LastName)
+                        .ToList();
+                case 4:
+                    return collectionItems
+                        .OrderBy(o => o.FavoriteColor)
+                        .ToList();
+                case 5:
+                    return collectionItems
+                        .OrderBy(o => o.FirstName)
                         .ToList();
             }
             return collectionItems;

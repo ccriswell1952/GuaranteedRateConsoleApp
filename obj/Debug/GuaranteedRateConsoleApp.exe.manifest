@@ -66,14 +66,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GuaranteedRateConsoleApp.exe" size="15312">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GuaranteedRateConsoleApp.exe" size="16848">
       <assemblyIdentity name="GuaranteedRateConsoleApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>7bNwz5pdT+2NYDBNswl8tzJsgmDjqDUOYwWnzpblPFM=</dsig:DigestValue>
+        <dsig:DigestValue>B1jVQ4Y/Q4+lEsMqlXANEdUGsWZFabZgfTmNlOzgLVk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -22,3 +22,4 @@ C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\obj\Debug\GuaranteedRateCon
 C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\obj\Debug\GuaranteedRateConsoleApp.csproj.CopyComplete
 C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\obj\Debug\GuaranteedRateConsoleApp.exe
 C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\obj\Debug\GuaranteedRateConsoleApp.pdb
+C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\obj\Debug\GuaranteedRateConsoleApp.csprojAssemblyReference.cache
