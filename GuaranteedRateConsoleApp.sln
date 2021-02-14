@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuaranteedRateConsoleApp", "GuaranteedRateConsoleApp.csproj", "{A282ACA2-04A1-438B-975F-46015FCDF34B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuaranteedRateTests", "..\GuaranteedRateConsoleAppTest\GuaranteedRateTests.csproj", "{2528184B-90F5-4F87-9760-5645CD0E06D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A282ACA2-04A1-438B-975F-46015FCDF34B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A282ACA2-04A1-438B-975F-46015FCDF34B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A282ACA2-04A1-438B-975F-46015FCDF34B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A282ACA2-04A1-438B-975F-46015FCDF34B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2528184B-90F5-4F87-9760-5645CD0E06D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2528184B-90F5-4F87-9760-5645CD0E06D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2528184B-90F5-4F87-9760-5645CD0E06D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DCDFD04-D0BA-4B63-AB88-18486A423F87}
+	EndGlobalSection
+EndGlobal
