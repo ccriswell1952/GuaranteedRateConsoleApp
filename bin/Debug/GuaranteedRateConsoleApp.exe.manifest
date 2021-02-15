@@ -66,14 +66,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GuaranteedRateConsoleApp.exe" size="16848">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GuaranteedRateConsoleApp.exe" size="42960">
       <assemblyIdentity name="GuaranteedRateConsoleApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>B1jVQ4Y/Q4+lEsMqlXANEdUGsWZFabZgfTmNlOzgLVk=</dsig:DigestValue>
+        <dsig:DigestValue>t6TdgSi5RGFVwkwuUvoDsRCXUsNWHjC8rdK0/G0CJc0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -86,6 +86,30 @@
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
         <dsig:DigestValue>7VvGBff5/MOCGDq+8Gw1Ta2UartCoHYxcSB3shV9a8k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.VisualStudio.TestPlatform.TestFramework.dll" size="75048">
+      <assemblyIdentity name="Microsoft.VisualStudio.TestPlatform.TestFramework" version="14.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>gRcSU2C89W+Shesn+Bv3f5BMaZwB5TetNt+m9TRPGrQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll" size="41256">
+      <assemblyIdentity name="Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions" version="14.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ohQS08B29xdJ/iizFEofmakmg8ZlvvEICBYh7vvwKNo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -194,13 +218,13 @@
       <dsig:DigestValue>Z8sOCT8gmNGY+072t6yBjPCSpY5NFszDWODwdufVqRM=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="GuaranteedRateConsoleApp.exe.config" size="1265">
+  <file name="GuaranteedRateConsoleApp.exe.config" size="3460">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>/gPKlqrQW0qF+EBcrRy3wheJVIXQLtW/J2Oa6ZwlvKI=</dsig:DigestValue>
+      <dsig:DigestValue>3uAFmZCoT3ja3eWnFy+Oa2v0evCn5ntS/8bOiq7A3KU=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

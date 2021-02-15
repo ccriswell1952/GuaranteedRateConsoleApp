@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace GuaranteedRateConsoleApp.Models
 {
-    public interface ICollectionItem
+    public partial interface ICollectionItem
     {
         #region Public Properties
 

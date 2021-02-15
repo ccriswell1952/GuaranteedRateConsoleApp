@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Chuck\\source\\repos\\GuaranteedRateConsoleApp\\GuaranteedRateConsoleApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Chuck\\source\\repos\\GuaranteedRateConsoleApp\\GuaranteedRateConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Chuck\\source\\repos\\GuaranteedRateConsoleApp\\GuaranteedRateConsoleApp.csproj",
+        "projectName": "GuaranteedRateConsoleApp",
+        "projectPath": "C:\\Users\\Chuck\\source\\repos\\GuaranteedRateConsoleApp\\GuaranteedRateConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\Chuck\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Chuck\\source\\repos\\GuaranteedRateConsoleApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Chuck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "0iJ7BZoAnv7C47QVInUbEDOC3QeUYyJa0+4tn28WRyAKjWe1lKMPsICOg8EDiKuJnYJoC4KYF1DrgLQrSMZA6g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Chuck\\source\\repos\\GuaranteedRateConsoleApp\\GuaranteedRateConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Chuck\\.nuget\\packages\\mstest.testadapter\\2.1.2\\mstest.testadapter.2.1.2.nupkg.sha512",
+    "C:\\Users\\Chuck\\.nuget\\packages\\mstest.testframework\\2.1.2\\mstest.testframework.2.1.2.nupkg.sha512",
+    "C:\\Users\\Chuck\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

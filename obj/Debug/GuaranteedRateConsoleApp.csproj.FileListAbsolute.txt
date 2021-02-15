@@ -1,3 +1,6 @@
+C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\bin\Debug\GuaranteedRateConsoleApp.exe.config
 C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\bin\Debug\GuaranteedRateConsoleApp.exe.manifest
 C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\bin\Debug\GuaranteedRateConsoleApp.application
@@ -14,7 +17,6 @@ C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\bin\Debug\System.Threading.
 C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\bin\Debug\System.Buffers.dll
 C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\obj\Debug\GuaranteedRateConsoleApp.exe.config
 C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\obj\Debug\GuaranteedRateConsoleApp.csproj.CoreCompileInputs.cache
 C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\obj\Debug\GuaranteedRateConsoleApp.exe.manifest
@@ -22,4 +24,6 @@ C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\obj\Debug\GuaranteedRateCon
 C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\obj\Debug\GuaranteedRateConsoleApp.csproj.CopyComplete
 C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\obj\Debug\GuaranteedRateConsoleApp.exe
 C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\obj\Debug\GuaranteedRateConsoleApp.pdb
+C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 C:\Users\Chuck\source\repos\GuaranteedRateConsoleApp\obj\Debug\GuaranteedRateConsoleApp.csprojAssemblyReference.cache

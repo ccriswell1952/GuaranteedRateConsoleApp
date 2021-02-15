@@ -2,7 +2,7 @@
 
 namespace GuaranteedRateConsoleApp.Models
 {
-    public class CollectionItem : ICollectionItem
+    public partial class CollectionItem : ICollectionItem
     {
         #region Private Fields
 
