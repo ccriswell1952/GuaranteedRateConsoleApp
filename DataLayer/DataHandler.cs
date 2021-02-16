@@ -8,15 +8,12 @@ using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace GuaranteedRateConsoleApp.DataLayer
 {
     public partial class DataHandler : IDataHandler
     {
         #region Private Fields
-
-        private Random random = new Random();
 
         private List<string> ColorList = new List<string>
         {
@@ -575,6 +572,8 @@ namespace GuaranteedRateConsoleApp.DataLayer
             "Hayes"
         };
 
+        private Random random = new Random();
+
         #endregion Private Fields
 
         #region Public Constructors
@@ -617,19 +616,7 @@ namespace GuaranteedRateConsoleApp.DataLayer
             string csv = JsonToCSV(serializedCollectionItems);
 
             // write it all back to file
-            try
-            {
-                using (StreamWriter writer = new StreamWriter(filePath))
-                {
-                    writer.Write(csv);
-                    writer.Close();
-                }
-                itemsAdded = true;
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("There was an error writing records to the file path " + filePath + ". Exception: " + ex.ToString());
-            }
+            itemsAdded = WriteToFile(filePath, csv);
             return itemsAdded;
         }
 
@@ -678,6 +665,17 @@ namespace GuaranteedRateConsoleApp.DataLayer
             return dataHandler.AddCollectionItems(content, out recordCountAfterAdd);
         }
 
+        /// <summary>
+        /// Gets All Collection Items
+        /// </summary>
+        /// <returns>List<CollectionItem></returns>
+        public List<CollectionItem> GetAllCollectionItems()
+        {
+            List<CollectionItem> collectionItems = new List<CollectionItem>();
+            collectionItems.AddRange(GetCollectionItemsFromFile("All"));
+            return collectionItems;
+        }
+
         public CollectionItem GetCollectionItemFromDelimitedString(string delimitedString)
         {
             string[] stringArray;
@@ -702,17 +700,6 @@ namespace GuaranteedRateConsoleApp.DataLayer
                 DateOfBirth = stringArray[4]
             };
             return item;
-        }
-
-        /// <summary>
-        /// Gets All Collection Items
-        /// </summary>
-        /// <returns>List<CollectionItem></returns>
-        public List<CollectionItem> GetAllCollectionItems()
-        {
-            List<CollectionItem> collectionItems = new List<CollectionItem>();
-            collectionItems.AddRange(GetCollectionItemsFromFile("All"));
-            return collectionItems;
         }
 
         /// <summary>
@@ -802,7 +789,7 @@ namespace GuaranteedRateConsoleApp.DataLayer
                     try
                     {
                         collectionItems.Add(e);
-                        recordCounter ++;
+                        recordCounter++;
                     }
                     catch (Exception ex)
                     {
@@ -909,18 +896,7 @@ namespace GuaranteedRateConsoleApp.DataLayer
             string csv = JsonToCSV(serializedCollectionItems);
 
             // write it all back to file
-            try
-            {
-                using (StreamWriter writer = new StreamWriter(filePath))
-                {
-                    writer.Write(csv);
-                    writer.Close();
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("There was an error writing records to the file path " + filePath + ". Exception: " + ex.ToString());
-            }
+            WriteToFile(filePath, csv);
             return collectionItems;
         }
 
@@ -1040,6 +1016,25 @@ namespace GuaranteedRateConsoleApp.DataLayer
             var returnValue = new string(Enumerable.Repeat(chars, length)
               .Select(s => s[random.Next(s.Length)]).ToArray());
             return char.ToUpper(returnValue[0]) + returnValue.Substring(1);
+        }
+
+        private bool WriteToFile(string filePath, string csv)
+        {
+            bool writeSuccess = false;
+            try
+            {
+                using (StreamWriter writer = new StreamWriter(filePath))
+                {
+                    writer.Write(csv);
+                    writer.Close();
+                }
+                writeSuccess = true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("There was an error writing records to the file path " + filePath + ". Exception: " + ex.ToString());
+            }
+            return writeSuccess;
         }
 
         #endregion Private Methods
